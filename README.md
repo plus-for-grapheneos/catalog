@@ -12,9 +12,11 @@ This is a staging catalog for testing. Its key is not a release key.
 
 ## Source
 
-- +PLUS and +PLUS AI: https://github.com/plus-for-grapheneos (source being published).
+- +PLUS, +PLUS AI and Phone+: https://github.com/plus-for-grapheneos (source being published).
 - +PLUS bundles avbroot 3.37.0 and afsr 2.0.0, unchanged, GPL-3.0, by Andrew Gunnerson:
   https://github.com/chenxiaolong/avbroot and https://github.com/chenxiaolong/afsr.
 - +PLUS AI bundles LiteRT-LM (Apache-2.0): https://github.com/google-ai-edge/LiteRT-LM.
+- Phone+ (call screening) is based on the GrapheneOS Dialer (Apache-2.0) and bundles Mozilla Rhino 1.9.1
+  (MPL-2.0): https://github.com/mozilla/rhino. Its licence notices are in the app (Settings > About).
 
 +PLUS for GrapheneOS is an independent project, not affiliated with or endorsed by the GrapheneOS project.

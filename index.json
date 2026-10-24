@@ -1,8 +1,8 @@
 {
     "format": 1,
     "repo": "plus-staging",
-    "published": "2026-10-24T16:30:19.646654185Z",
-    "serial": 1,
+    "published": "2026-10-24T21:54:43.612500200Z",
+    "serial": 2,
     "apps": [
         {
             "package": "app.seamlessupdate.client",
@@ -22,6 +22,41 @@
             "min_installer": 1
         },
         {
+            "package": "app.plusos.phone",
+            "addon": "callscreen-phone",
+            "version": 2900018,
+            "apk": "app.plusos.phone-2900018.apk",
+            "sha256": "a50129c94cad7f98a0dbe0953b354af5bcb04f6b167cc5ab5fa8d4ad3ef68706",
+            "signer_sha256": "277852f1b941aaad54950c053dbf53a58133db8319fffe7e0ebb64c991815bc5",
+            "privileged": true,
+            "privapp_permissions": [
+                "android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK",
+                "android.permission.CAPTURE_AUDIO_OUTPUT",
+                "android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS",
+                "android.permission.CONTROL_INCALL_EXPERIENCE",
+                "android.permission.GET_ACCOUNTS_PRIVILEGED",
+                "android.permission.MODIFY_AUDIO_ROUTING",
+                "android.permission.MODIFY_PHONE_STATE",
+                "android.permission.READ_PRIVILEGED_PHONE_STATE",
+                "android.permission.STATUS_BAR",
+                "android.permission.STOP_APP_SWITCHES",
+                "com.android.voicemail.permission.READ_VOICEMAIL",
+                "com.android.voicemail.permission.WRITE_VOICEMAIL"
+            ],
+            "min_installer": 1
+        },
+        {
+            "package": "app.plusos.phone.transcriber",
+            "addon": "callscreen-phone",
+            "version": 39,
+            "apk": "app.plusos.phone.transcriber-39.apk",
+            "sha256": "5ba11e0e8e239d3e41264452fd46330b0c35c24b7ae0982e54402c28586d2b3d",
+            "signer_sha256": "277852f1b941aaad54950c053dbf53a58133db8319fffe7e0ebb64c991815bc5",
+            "privileged": false,
+            "privapp_permissions": [],
+            "min_installer": 1
+        },
+        {
             "package": "app.plusos.ai",
             "addon": "ai-service",
             "version": 6,
@@ -34,5 +69,5 @@
         }
     ],
     "public_key": "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAl976X9JuYBwvfYyS3NDN8lsHGWKmLbIGAE3pYmI3+sL/TB+pfLiwtGWfpOGReDpwxm37yuTVq6h/k7LokeI1P/um/faN0kNyCikJ9hUllxCVfMx+0bldAjTMcweLpRGHmk5p7lCyJurMEAu6MM9QXX+RLhzl3LpBg5R3RO1/+9gfTHArFala29UxmzjiciTGJo+i5VKddzg716VfF+OGO2u/O6YJK28mbglgSQZwVFfgTMU4WWBBjB1/LXVhrq6zpudU5aciTx+f4bfMGayhcA7PPrTOYUb0OPgEiaTP6QK0NOPYA8RpG/8WqdsFwrP+g1fsQCOU/RYcxtLuIpW4YJ35kARfsdGBK/2pG03Qat4gDAxUMiJqQhV0S4jHglb4w2eOVwlntD68Rl9P6k72xfxpB8EAI8bzETU7lgXOWF/RXZrmXx0gf4kecxLyL5Y8urw5XdMc3fkaPd+prCEWr4PSGHMU7+FdMPqnWtlbQiNRqgDOTg1ZgWlxpGhTawkN5UMYPgLcQKKEXuYCUtQ3fbOMFdm41/x8dzUzmC6YeDQUgpNmQxpY+D+i3ePfv4zbq7Z0x0RnLMMhQ47CwJ05DagsYF93u9v8+Io3uLH2vpGVegRyfo1ub0GWiOcO64pixXcO6XhwGsOdQJNL3ppFWhV5HvXFRKt9Km/Jm7kQftMCAwEAAQ==",
-    "expires": "2026-11-21T16:30:19.646654185Z"
+    "expires": "2026-11-21T21:54:43.612500200Z"
 }
