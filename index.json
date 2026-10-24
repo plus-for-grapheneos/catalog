@@ -1,0 +1,38 @@
+{
+    "format": 1,
+    "repo": "plus-staging",
+    "published": "2026-10-24T16:30:19.646654185Z",
+    "serial": 1,
+    "apps": [
+        {
+            "package": "app.seamlessupdate.client",
+            "addon": "plus",
+            "version": 14,
+            "apk": "app.seamlessupdate.client-14.apk",
+            "sha256": "4b053388e3a1bde35e671cdddd3cf7e3ea87912d3cde4196b4d34b15f8ef34bd",
+            "signer_sha256": "92aa05f28e1939b181484897f75c74dc18e07f63351bd7f6e9c142dd388fad65",
+            "privileged": true,
+            "privapp_permissions": [
+                "android.permission.ACCESS_CACHE_FILESYSTEM",
+                "android.permission.ALLOCATE_AGGRESSIVE",
+                "android.permission.DELETE_PACKAGES",
+                "android.permission.INSTALL_PACKAGES",
+                "android.permission.REBOOT"
+            ],
+            "min_installer": 1
+        },
+        {
+            "package": "app.plusos.ai",
+            "addon": "ai-service",
+            "version": 6,
+            "apk": "app.plusos.ai-6.apk",
+            "sha256": "57f9f620bbc11058ccb030338dbef7cd896b3b4c3099cee78d1c4fc549237c7e",
+            "signer_sha256": "9c28849a98597993a2d8b5db301e73f12d7ca2794f969d0247d52e181de9edaf",
+            "privileged": false,
+            "privapp_permissions": [],
+            "min_installer": 1
+        }
+    ],
+    "public_key": "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAl976X9JuYBwvfYyS3NDN8lsHGWKmLbIGAE3pYmI3+sL/TB+pfLiwtGWfpOGReDpwxm37yuTVq6h/k7LokeI1P/um/faN0kNyCikJ9hUllxCVfMx+0bldAjTMcweLpRGHmk5p7lCyJurMEAu6MM9QXX+RLhzl3LpBg5R3RO1/+9gfTHArFala29UxmzjiciTGJo+i5VKddzg716VfF+OGO2u/O6YJK28mbglgSQZwVFfgTMU4WWBBjB1/LXVhrq6zpudU5aciTx+f4bfMGayhcA7PPrTOYUb0OPgEiaTP6QK0NOPYA8RpG/8WqdsFwrP+g1fsQCOU/RYcxtLuIpW4YJ35kARfsdGBK/2pG03Qat4gDAxUMiJqQhV0S4jHglb4w2eOVwlntD68Rl9P6k72xfxpB8EAI8bzETU7lgXOWF/RXZrmXx0gf4kecxLyL5Y8urw5XdMc3fkaPd+prCEWr4PSGHMU7+FdMPqnWtlbQiNRqgDOTg1ZgWlxpGhTawkN5UMYPgLcQKKEXuYCUtQ3fbOMFdm41/x8dzUzmC6YeDQUgpNmQxpY+D+i3ePfv4zbq7Z0x0RnLMMhQ47CwJ05DagsYF93u9v8+Io3uLH2vpGVegRyfo1ub0GWiOcO64pixXcO6XhwGsOdQJNL3ppFWhV5HvXFRKt9Km/Jm7kQftMCAwEAAQ==",
+    "expires": "2026-11-21T16:30:19.646654185Z"
+}

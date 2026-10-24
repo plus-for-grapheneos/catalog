@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>+PLUS catalog</title>
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<style>
+  :root { color-scheme: light dark; --bg: light-dark(#f8fafc, #0b1220); --fg: light-dark(#0f172a, #e2e8f0); --muted: light-dark(#475569, #94a3b8); --accent: light-dark(#1d4ed8, #93c5fd); }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 1.0625rem/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 40rem; margin: 0 auto; padding: 4rem 1rem 3rem; }
+  a { color: var(--accent); }
+  code { overflow-wrap: anywhere; }
+  footer { margin-top: 3rem; font-size: .875rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>+PLUS add-on catalog</h1>
+  <p>The signed list of add-ons that +PLUS offers on the phone. This is a staging catalog for testing.</p>
+  <p>Catalog link (+PLUS has it built in; it can also be entered when importing the key):<br>
+    <code>https://plus-for-grapheneos.github.io/catalog/index.json#sha256=8fed9c0c25b05e8c3c35faf7ff60e0d2b6ae80d65a1166af494598b36bdb50a7</code></p>
+  <p>Files: <a href="index.json">index.json</a> (add-ons) and <a href="models.json">models.json</a> (on-device AI
+    models), each with a <code>.sig</code> signature. A phone accepts a catalog only if its key matches the hash in the
+    link, its signature checks, it has not expired, and its serial is not older than the last one seen.</p>
+  <p><a href="../">+PLUS for GrapheneOS</a></p>
+  <footer>+PLUS for GrapheneOS is an independent project, not affiliated with or endorsed by the GrapheneOS project.</footer>
+</main>
+</body>
+</html>
