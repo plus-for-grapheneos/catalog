@@ -12,7 +12,8 @@ This is a staging catalog for testing. Its key is not a release key.
 
 ## Source
 
-- +PLUS, +PLUS AI and Phone+: https://github.com/plus-for-grapheneos (source being published).
+- +PLUS and +PLUS AI: https://github.com/plus-for-grapheneos/plus
+- Phone+ and its call transcriber: https://github.com/plus-for-grapheneos/phone-plus
 - +PLUS bundles avbroot 3.37.0 and afsr 2.0.0, unchanged, GPL-3.0, by Andrew Gunnerson:
   https://github.com/chenxiaolong/avbroot and https://github.com/chenxiaolong/afsr.
 - +PLUS AI bundles LiteRT-LM (Apache-2.0): https://github.com/google-ai-edge/LiteRT-LM.
