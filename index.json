@@ -1,15 +1,15 @@
 {
     "format": 1,
     "repo": "plus-staging",
-    "published": "2026-10-24T21:54:43.612500200Z",
-    "serial": 2,
+    "published": "2026-10-29T21:52:28.518684227Z",
+    "serial": 3,
     "apps": [
         {
             "package": "app.seamlessupdate.client",
             "addon": "plus",
-            "version": 14,
-            "apk": "app.seamlessupdate.client-14.apk",
-            "sha256": "4b053388e3a1bde35e671cdddd3cf7e3ea87912d3cde4196b4d34b15f8ef34bd",
+            "version": 15,
+            "apk": "app.seamlessupdate.client-15.apk",
+            "sha256": "a37e4daaf1e199f866ce01e03616410aebf10cd6105e6de29e4802b142c28b93",
             "signer_sha256": "92aa05f28e1939b181484897f75c74dc18e07f63351bd7f6e9c142dd388fad65",
             "privileged": true,
             "privapp_permissions": [
@@ -69,5 +69,33 @@
         }
     ],
     "public_key": "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAl976X9JuYBwvfYyS3NDN8lsHGWKmLbIGAE3pYmI3+sL/TB+pfLiwtGWfpOGReDpwxm37yuTVq6h/k7LokeI1P/um/faN0kNyCikJ9hUllxCVfMx+0bldAjTMcweLpRGHmk5p7lCyJurMEAu6MM9QXX+RLhzl3LpBg5R3RO1/+9gfTHArFala29UxmzjiciTGJo+i5VKddzg716VfF+OGO2u/O6YJK28mbglgSQZwVFfgTMU4WWBBjB1/LXVhrq6zpudU5aciTx+f4bfMGayhcA7PPrTOYUb0OPgEiaTP6QK0NOPYA8RpG/8WqdsFwrP+g1fsQCOU/RYcxtLuIpW4YJ35kARfsdGBK/2pG03Qat4gDAxUMiJqQhV0S4jHglb4w2eOVwlntD68Rl9P6k72xfxpB8EAI8bzETU7lgXOWF/RXZrmXx0gf4kecxLyL5Y8urw5XdMc3fkaPd+prCEWr4PSGHMU7+FdMPqnWtlbQiNRqgDOTg1ZgWlxpGhTawkN5UMYPgLcQKKEXuYCUtQ3fbOMFdm41/x8dzUzmC6YeDQUgpNmQxpY+D+i3ePfv4zbq7Z0x0RnLMMhQ47CwJ05DagsYF93u9v8+Io3uLH2vpGVegRyfo1ub0GWiOcO64pixXcO6XhwGsOdQJNL3ppFWhV5HvXFRKt9Km/Jm7kQftMCAwEAAQ==",
-    "expires": "2026-11-21T21:54:43.612500200Z"
+    "expires": "2026-11-26T21:52:28.518684227Z",
+    "recipes": [
+        {
+            "id": "google-phone",
+            "name": "Google Phone",
+            "package": "com.google.android.dialer",
+            "signers": [
+                "e2d049f3a01192f620b1240615fa8c13badc553c22bc6fddfca45c84d8fc545d"
+            ],
+            "min_version": 19664958,
+            "grant": [
+                "android.permission.CAPTURE_AUDIO_OUTPUT",
+                "android.permission.MODIFY_AUDIO_ROUTING",
+                "android.permission.MODIFY_PHONE_STATE",
+                "android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT",
+                "android.permission.CONTROL_INCALL_EXPERIENCE",
+                "android.permission.READ_PRIVILEGED_PHONE_STATE",
+                "com.android.voicemail.permission.READ_VOICEMAIL",
+                "com.android.voicemail.permission.WRITE_VOICEMAIL",
+                "android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK",
+                "android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS",
+                "android.permission.STOP_APP_SWITCHES"
+            ],
+            "dynamic_code": true,
+            "power_allowlist": true,
+            "notice": "Uses the Google Phone you installed from Play. Call Screen, Hold for Me and call recording are offered by Google per country. Call notes, fraud detection and leave a message need Google's on-device AI, which GrapheneOS doesn't include. Set it as your default phone app afterwards (it and Phone+ can't both be the default).",
+            "min_installer": 15
+        }
+    ]
 }
