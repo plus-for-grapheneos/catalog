@@ -1,6 +1,6 @@
 {
     "format": 1,
-    "serial": 3,
+    "serial": 4,
     "models": [
         {
             "id": "gemma-4-e2b",
@@ -19,5 +19,5 @@
         }
     ],
     "public_key": "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAl976X9JuYBwvfYyS3NDN8lsHGWKmLbIGAE3pYmI3+sL/TB+pfLiwtGWfpOGReDpwxm37yuTVq6h/k7LokeI1P/um/faN0kNyCikJ9hUllxCVfMx+0bldAjTMcweLpRGHmk5p7lCyJurMEAu6MM9QXX+RLhzl3LpBg5R3RO1/+9gfTHArFala29UxmzjiciTGJo+i5VKddzg716VfF+OGO2u/O6YJK28mbglgSQZwVFfgTMU4WWBBjB1/LXVhrq6zpudU5aciTx+f4bfMGayhcA7PPrTOYUb0OPgEiaTP6QK0NOPYA8RpG/8WqdsFwrP+g1fsQCOU/RYcxtLuIpW4YJ35kARfsdGBK/2pG03Qat4gDAxUMiJqQhV0S4jHglb4w2eOVwlntD68Rl9P6k72xfxpB8EAI8bzETU7lgXOWF/RXZrmXx0gf4kecxLyL5Y8urw5XdMc3fkaPd+prCEWr4PSGHMU7+FdMPqnWtlbQiNRqgDOTg1ZgWlxpGhTawkN5UMYPgLcQKKEXuYCUtQ3fbOMFdm41/x8dzUzmC6YeDQUgpNmQxpY+D+i3ePfv4zbq7Z0x0RnLMMhQ47CwJ05DagsYF93u9v8+Io3uLH2vpGVegRyfo1ub0GWiOcO64pixXcO6XhwGsOdQJNL3ppFWhV5HvXFRKt9Km/Jm7kQftMCAwEAAQ==",
-    "expires": "2026-11-26T21:52:30.014368677Z"
+    "expires": "2026-11-28T16:51:36.887394597Z"
 }

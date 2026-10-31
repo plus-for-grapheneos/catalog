@@ -1,15 +1,15 @@
 {
     "format": 1,
     "repo": "plus-staging",
-    "published": "2026-10-29T21:52:28.518684227Z",
-    "serial": 3,
+    "published": "2026-10-31T16:51:35.411504180Z",
+    "serial": 4,
     "apps": [
         {
             "package": "app.seamlessupdate.client",
             "addon": "plus",
-            "version": 15,
-            "apk": "app.seamlessupdate.client-15.apk",
-            "sha256": "a37e4daaf1e199f866ce01e03616410aebf10cd6105e6de29e4802b142c28b93",
+            "version": 16,
+            "apk": "app.seamlessupdate.client-16.apk",
+            "sha256": "b6791849600c2b1782a5c6bafbce66b8dae999d90361d6a0e4549114b87be42d",
             "signer_sha256": "92aa05f28e1939b181484897f75c74dc18e07f63351bd7f6e9c142dd388fad65",
             "privileged": true,
             "privapp_permissions": [
@@ -69,7 +69,7 @@
         }
     ],
     "public_key": "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAl976X9JuYBwvfYyS3NDN8lsHGWKmLbIGAE3pYmI3+sL/TB+pfLiwtGWfpOGReDpwxm37yuTVq6h/k7LokeI1P/um/faN0kNyCikJ9hUllxCVfMx+0bldAjTMcweLpRGHmk5p7lCyJurMEAu6MM9QXX+RLhzl3LpBg5R3RO1/+9gfTHArFala29UxmzjiciTGJo+i5VKddzg716VfF+OGO2u/O6YJK28mbglgSQZwVFfgTMU4WWBBjB1/LXVhrq6zpudU5aciTx+f4bfMGayhcA7PPrTOYUb0OPgEiaTP6QK0NOPYA8RpG/8WqdsFwrP+g1fsQCOU/RYcxtLuIpW4YJ35kARfsdGBK/2pG03Qat4gDAxUMiJqQhV0S4jHglb4w2eOVwlntD68Rl9P6k72xfxpB8EAI8bzETU7lgXOWF/RXZrmXx0gf4kecxLyL5Y8urw5XdMc3fkaPd+prCEWr4PSGHMU7+FdMPqnWtlbQiNRqgDOTg1ZgWlxpGhTawkN5UMYPgLcQKKEXuYCUtQ3fbOMFdm41/x8dzUzmC6YeDQUgpNmQxpY+D+i3ePfv4zbq7Z0x0RnLMMhQ47CwJ05DagsYF93u9v8+Io3uLH2vpGVegRyfo1ub0GWiOcO64pixXcO6XhwGsOdQJNL3ppFWhV5HvXFRKt9Km/Jm7kQftMCAwEAAQ==",
-    "expires": "2026-11-26T21:52:28.518684227Z",
+    "expires": "2026-11-28T16:51:35.411504180Z",
     "recipes": [
         {
             "id": "google-phone",
